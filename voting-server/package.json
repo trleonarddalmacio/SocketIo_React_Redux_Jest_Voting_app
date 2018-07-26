@@ -1,0 +1,27 @@
+{
+  "name": "voting-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+	"license": "ISC",
+	"dependencies": {
+    "immutable": "^3.8.2",
+    "react": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.4.1",
+    "jest-immutable-matchers": "^2.0.1",
+    "regenerator-runtime": "^0.12.0"
+  }
+}
